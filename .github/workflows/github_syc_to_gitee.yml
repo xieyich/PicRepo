@@ -9,7 +9,6 @@ jobs:
         with:
           src: github/iskey
           dst: gitee/xyciskey
-          clone_style: "ssh"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           static_list: "PicRepo"
