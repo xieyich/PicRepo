@@ -16,7 +16,7 @@ jobs:
           region: ap-southeast-1
           bucket: ${{ secrets.QINIU_BUCKET }}
           exclude: .git,.github
-          dist: "2021-11-28 12-33-42"
+          dist: ./
           saveroot: PicRepo
         env:
           UPTOC_UPLOADER_AK: ${{ secrets.QINIU_ACCESS_KEY }}
