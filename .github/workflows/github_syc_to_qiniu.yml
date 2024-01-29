@@ -17,7 +17,6 @@ jobs:
           bucket: ${{ secrets.QINIU_BUCKET }}
           exclude: .git,.github
           dist: ./
-          saveroot: PicRepo
         env:
           UPTOC_UPLOADER_AK: ${{ secrets.QINIU_ACCESS_KEY }}
           UPTOC_UPLOADER_SK: ${{ secrets.QINIU_SECRET_KEY }}
